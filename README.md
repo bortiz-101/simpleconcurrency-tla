@@ -23,9 +23,12 @@ Shared = K
 | **3**     |   1  |     2    |   2   |    2    |
 | **4**     |   1  |     2    |   2   |    2    |
 
-### **Revised Forumla**
+### **Revised Formula**
 
-
-
+$$
+f(shared) = \begin{cases} N & \text{if } K = 1\\
+                          shared <= 2 & \text{ if } K > 1
+\end{cases}\
+$$
 ### **Discussion**
 
