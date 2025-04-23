@@ -32,3 +32,6 @@ f(shared) = \begin{cases} N & \text{if } K = 1\\
 $$
 ### **Discussion**
 
+- Our initial assumptions prior to experimentation was that the minimal value of shared could not be lower than the value of N
+- Quickly during experimentation we found that the value of shared could go lower N and often did for most values of K
+- During the experimentation process of this assignment we found that in order to complete the computation in timely manner for large K and N values it was necessary to run the TLC with the following flags "-coverage 1 -deadlock -workers auto" due to the size of the state space
